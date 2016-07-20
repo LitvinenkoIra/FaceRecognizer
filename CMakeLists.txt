@@ -23,6 +23,8 @@ include_directories(
     ${COMPONENTS_DIR}/locker/impl/include
     ${COMPONENTS_DIR}/face_finder/include
     ${COMPONENTS_DIR}/face_finder/impl/include
+    ${COMPONENTS_DIR}/config/include
+    ${COMPONENTS_DIR}/config/impl/include
 )
 
 set (LIBRARIES

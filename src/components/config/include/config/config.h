@@ -9,6 +9,8 @@ class Config {
                                 std::string& key) = 0;
   virtual const std::string GetStringValue(const std::string& section,
                                            std::string& key) = 0;
+  virtual const double GetDoubleValue(const std::string& section,
+                                      const std::string& key) const = 0;
 
   virtual void SetIntValue(const std::string& section,
                            std::string& key,
